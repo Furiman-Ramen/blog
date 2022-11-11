@@ -8,6 +8,8 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
+gem "minima", "~> 2.5"
+
 # To update to the latest github dependencies run: `bundle update`
 # To list current versions: `bundle exec github-pages versions`
 # Check github versions: https://pages.github.com/versions/

@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+$brand-color: #aaa;
+$text-color: #e3e3e3;
+$gutter-color: #3d3d3d;
+
+// Fonts
+$base-font-family: "Segoe UI", "Segoe UI Symbol" , Roboto, Helvetica, Arial, sans-serif;
+$base-font-size: 16px;
+$base-font-weight: 400;
+$small-font-size: $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit: 30px;
+
+
+// Width of content area
+$on-palm: 600px;

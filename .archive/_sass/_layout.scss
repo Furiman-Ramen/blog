@@ -1,0 +1,29 @@
+.site-header {
+    min-height: $spacing-unit * 1.865;
+    line-height: $base-line-height * $base-font-size *2.25;
+}
+
+.site-title {
+    @include relative-font-size(1.625);
+    font-weight: 300;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    float: left;
+
+    @include media-query($on-palm) {
+        padding-right: 45px;
+    }
+
+    &,
+    &:visited {
+        color: $brand-color
+    }
+}
+
+.post-list-heading {
+    @include relative-font-size(1.75);
+}
+
+.footer-col {
+    margin-bottom: $spacing-unit / 2;
+}
