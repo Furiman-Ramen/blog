@@ -9,3 +9,5 @@ Setup:
 ```
 sudo apt-get install ruby-full build-essential zlib1g-dev
 ```
+
+Minima docs: https://github.com/jekyll/minima
