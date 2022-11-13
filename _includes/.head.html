@@ -18,5 +18,9 @@
   {"@context":"https://schema.org","@type":"WebSite","description":"Blog powered by Github Pages","headline":"Furīman Blog","name":"Furīman Blog","url":"http://localhost:4000/blog/"}</script> -->
   <!-- End Jekyll SEO tag -->
   <link rel="stylesheet" 
-    href="{{ "/assets/css/style.scss" | relative_url }}" >
-<!-- <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/blog/feed.xml" title="Furīman Blog" /></head> -->
+    href="{{ "/assets/css/style.css" | relative_url }}" >
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+   {%- include google-analytics.html -%}
+  {%- endif -%}
+<!-- <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/blog/feed.xml" title="Furīman Blog" /> -->
+</head>
